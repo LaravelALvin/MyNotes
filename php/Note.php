@@ -1,5 +1,5 @@
 <?php
-
+	date_default_timezone_set('Asia/Manila');
 	include 'dbconnect.php';
 	session_start();
 	$user_id = $_SESSION['user_id'];
