@@ -6,21 +6,21 @@ date_default_timezone_set('Asia/Manila');
 <html>
 <head>
     <title>Sign in - My Notes</title>
-    <link rel="icon" href="https://lh3.googleusercontent.com/pw/ACtC-32n3AfVM36ugBczzdtwkxC6Rai1so3ajf9OjGAD0YVgNENFMUt8cR8K8bhnacYMmmDWwZM9jOEVDODzFyZoQoOD_MiBWwIYfUll6EY9-xehPk7gg0be0PXsyCw9RMHX789iqKkTKm0atpBcd6YwdjUBJhpl_qpu=w699-h697-no?authuser=0">
+    <link rel="icon" href="https://lh3.googleusercontent.com/pw/ACtC-3dwAs4wQi00Xkzyxq0tOkXexJnbRs6dprouBETxGF7eTOxhPnjs9jJtka9UU-nviZRU4SVzD7RSdCUkDsx0iHacCcAdUd1hHFu4W_VOnZdCR7e9ik15ilGwSpJQF_N450P-o5Q91FpqEJQFIUo1HEOO=w699-h697-no">
     <link rel="stylesheet" type="text/css" href="../css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <img class="wave" src="https://lh3.googleusercontent.com/pw/ACtC-32n3AfVM36ugBczzdtwkxC6Rai1so3ajf9I_zCcnqbP29MGs0eiPZYZujiH_MA7W--ysOMY--eRlDYdeChJeKjaChTcr7ZmvHG8U2n4j7tTcygcrAAq_W39t_SUFShuYKB1F7eSRPS4eOFzK6xZ=w574-h697-no?authuser=0">
+    <img class="wave" src="https://lh3.googleusercontent.com/pw/ACtC-3c_JxUlKl01SIqfGisMFnLYVGrDwVl3PcGbAcKrFQ7TOVadTwesBaF9QVBi609EV9M7eCCfmcnHjbw_MXDZn8b_rmVrR6jazOm2wpXaRcWB5PaFan9zKqdYNq878GybjlLaaYLISdZ-0HW-R_VhqSaR=w574-h697-no">
     <div class="container">
         <div class="img">
-            <img src="https://lh3.googleusercontent.com/pw/ACtC-32n3AfVM36ugBczzdtwkxC6Rai1so3ajf9ecSpeaRAcwAeP8NbD7ZdRVcaYC0uygeCYq_bzXaMS1eIDC9smsIcvMA8RFkMy0_TYniJ0TJlEtjICiQNSust5Hap3VkcbD9khxAoAEps8s8bRcT=w838-h697-no?authuser=0">
+            <img src="https://lh3.googleusercontent.com/pw/ACtC-3ft5TL-Gepf2mIz7uE5bthM0O4FrdQr8NcJNkknHze8bIH8BMycGsNBLqbeFxy6N5yNm5Msfgpx0DnQRKgdVqEZ7SHmhabJw6anUEym9s8GALAquKVhimA7VCf275Wism1MYEKzG0CNFmaF4P812Xed=w838-h697-no">
         </div>
         <div class="login-content">
             <form id="loginform" class="form-horizontal" role="form" action="../php/login.php" method="POST">
-                <img src="https://lh3.googleusercontent.com/pw/ACtC-3coSfX-oFKccmhDZUmYxZOdxToeWwNn9lvcc4WPj-G0C3LkhHYvupyh-DcLctP79SQHqT0_bLRfItDm3YHN3hy3YxJfFNRgfLapYn_FdEnTvg0-vZYbwHPJSdbGpZLLcFXudfo7E3aFIpX1wrcgX0jd=s697-no?authuser=0">
+                <img src="https://lh3.googleusercontent.com/pw/ACtC-3c-mRMtkuBdOlKb2uOoAWJbdI5HV73ehiLDDrffH1OzaOf68FqRrvZFjmBEe04MXdXVY0Tdfy-VQ2XvGOi81TbOSqsUpmqtAaOJVaJTcXiRG-PYp3RGea7mb2AbikO2PQ2Vn1RDzLW6z9-33FpIzQ9q=s697-no">
                 <h2 class="title">Welcome</h2>
               <?php
                 if(@$_GET['Empty']==true)
