@@ -10,8 +10,8 @@ if(isset($_SESSION['user_id'])){
 <html>
 <head>
 	<title>My Notes</title>
- <link rel="icon" href="https://lh3.googleusercontent.com/pw/ACtC-32n3AfVM36ugBczzdtwkxC6Rai1so3ajf9-32n3AfVM36ugBczzdtwkxC6Rai1so3ajf9kLie6KWMvtTNp_mT3B_V6Ka5hSfsKzvlty32n3AfVM36ugBczzdtwkxC6Rai1so3ajf9IAE1K=w699-h697-no">
-	
+  <link rel="icon" href="https://lh3.googleusercontent.com/pw/ACtC-3dwAs4wQi00Xkzyxq0tOkXexJnbRs6dprouBETxGF7eTOxhPnjs9jJtka9UU-nviZRU4SVzD7RSdCUkDsx0iHacCcAdUd1hHFu4W_VOnZdCR7e9ik15ilGwSpJQF_N450P-o5Q91FpqEJQFIUo1HEOO=w699-h697-no">
+    	
 
   <!-- CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
@@ -29,7 +29,7 @@ if(isset($_SESSION['user_id'])){
 <header class="pageheader">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
    <a class="navbar-brand" href="it110-mynotes.herokuapp.com">
-          <img src="https://lh3.googleusercontent.com/pw/ACtC-3cG6dkQ4XRL6O_e7y0ArTLQtg7B_MPjnygQLtznEY-8ULi9ZNpsucm7iqR_5VnRBmyYps1N8RsX8559zzmsDRxLVPjOebzb3bE9MrV5TDWrUa_bNnbl1_dY69P-1vspgDcib9sj-iigP6d-rUDDFr6V=w150-h50-no" alt="">
+          <img src="https://lh3.googleusercontent.com/pw/ACtC-3ffOiojDxoDVeyRTP0EXxs57fVnbgegGFp7iACdQZl5vuJ3NZaIQlE31JSczCUZuNIyQKKSkAOFAEQGTRczBCPV1El1qPewEFWwDLFOH2hlW8qBPUAO6BVGvnLy5l5NL10A_4IAed3gtqv5VLTGgpb1=w150-h50-no" alt="">
     </a>
 
     <div class="navbar-nav ml-auto">
