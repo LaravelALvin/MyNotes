@@ -28,8 +28,8 @@ if(isset($_SESSION['user_id'])){
                 <!-- START OF NAVBAR! -->
 <header class="pageheader">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-   <a class="navbar-brand" href="#">
-          <img src="img/logo.png" alt="">
+   <a class="navbar-brand" href="it110-mynotes.herokuapp.com">
+          <img src="https://lh3.googleusercontent.com/pw/ACtC-3cG6dkQ4XRL6O_e7y0ArTLQtg7B_MPjnygQLtznEY-8ULi9ZNpsucm7iqR_5VnRBmyYps1N8RsX8559zzmsDRxLVPjOebzb3bE9MrV5TDWrUa_bNnbl1_dY69P-1vspgDcib9sj-iigP6d-rUDDFr6V=w150-h50-no" alt="">
     </a>
 
     <div class="navbar-nav ml-auto">
