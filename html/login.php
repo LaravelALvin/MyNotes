@@ -6,7 +6,7 @@ date_default_timezone_set('Asia/Manila');
 <html>
 <head>
     <title>Sign in - My Notes</title>
-    <link rel="icon" href="https://lh3.googleusercontent.com/pw/ACtC-32n3AfVM36ugBczzdtwkxC6Rai1so3ajf9OjGAD0YVgNENFMUt8cR8K8bhnacYMmmDWwZM9jOEVDODzFyZoQoOD_MiBWwIYfUll6EY9-xehPk7gg0be0PXsyCw9RMHX789iqKkTKm0atpBcd6YwdjUBJhpl_qpu=w699-h697-no">
+    <link rel="icon" href="https://lh3.googleusercontent.com/pw/ACtC-32n3AfVM36ugBczzdtwkxC6Rai1so3ajf9OjGAD0YVgNENFMUt8cR8K8bhnacYMmmDWwZM9jOEVDODzFyZoQoOD_MiBWwIYfUll6EY9-xehPk7gg0be0PXsyCw9RMHX789iqKkTKm0atpBcd6YwdjUBJhpl_qpu=w699-h697-no?authuser=0">
     <link rel="stylesheet" type="text/css" href="../css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a81368914c.js"></script>
