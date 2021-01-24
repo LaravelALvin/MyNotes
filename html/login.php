@@ -13,14 +13,14 @@ date_default_timezone_set('Asia/Manila');
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <img class="wave" src="https://lh3.googleusercontent.com/pw/ACtC-32n3AfVM36ugBczzdtwkxC6Rai1so3ajf9I_zCcnqbP29MGs0eiPZYZujiH_MA7W--ysOMY--eRlDYdeChJeKjaChTcr7ZmvHG8U2n4j7tTcygcrAAq_W39t_SUFShuYKB1F7eSRPS4eOFzK6xZ=w574-h697-no">
+    <img class="wave" src="https://lh3.googleusercontent.com/pw/ACtC-32n3AfVM36ugBczzdtwkxC6Rai1so3ajf9I_zCcnqbP29MGs0eiPZYZujiH_MA7W--ysOMY--eRlDYdeChJeKjaChTcr7ZmvHG8U2n4j7tTcygcrAAq_W39t_SUFShuYKB1F7eSRPS4eOFzK6xZ=w574-h697-no?authuser=0">
     <div class="container">
         <div class="img">
-            <img src="https://lh3.googleusercontent.com/pw/ACtC-32n3AfVM36ugBczzdtwkxC6Rai1so3ajf9ecSpeaRAcwAeP8NbD7ZdRVcaYC0uygeCYq_bzXaMS1eIDC9smsIcvMA8RFkMy0_TYniJ0TJlEtjICiQNSust5Hap3VkcbD9khxAoAEps8s8bRcT=w838-h697-no">
+            <img src="https://lh3.googleusercontent.com/pw/ACtC-32n3AfVM36ugBczzdtwkxC6Rai1so3ajf9ecSpeaRAcwAeP8NbD7ZdRVcaYC0uygeCYq_bzXaMS1eIDC9smsIcvMA8RFkMy0_TYniJ0TJlEtjICiQNSust5Hap3VkcbD9khxAoAEps8s8bRcT=w838-h697-no?authuser=0">
         </div>
         <div class="login-content">
             <form id="loginform" class="form-horizontal" role="form" action="../php/login.php" method="POST">
-                <img src="https://lh3.googleusercontent.com/pw/ACtC-3coSfX-oFKccmhDZUmYxZOdxToeWwNn9lvcc4WPj-G0C3LkhHYvupyh-DcLctP79SQHqT0_bLRfItDm3YHN3hy3YxJfFNRgfLapYn_FdEnTvg0-vZYbwHPJSdbGpZLLcFXudfo7E3aFIpX1wrcgX0jd=s697-no">
+                <img src="https://lh3.googleusercontent.com/pw/ACtC-3coSfX-oFKccmhDZUmYxZOdxToeWwNn9lvcc4WPj-G0C3LkhHYvupyh-DcLctP79SQHqT0_bLRfItDm3YHN3hy3YxJfFNRgfLapYn_FdEnTvg0-vZYbwHPJSdbGpZLLcFXudfo7E3aFIpX1wrcgX0jd=s697-no?authuser=0">
                 <h2 class="title">Welcome</h2>
               <?php
                 if(@$_GET['Empty']==true)
