@@ -1,9 +1,8 @@
 <?php
 session_start();
 if(isset($_SESSION['user_id'])){
-// echo '<pre>';
-// var_dump($notes);
-// echo '</pre>';
+
+
 ?>
 
 <!DOCTYPE html>
@@ -11,35 +10,55 @@ if(isset($_SESSION['user_id'])){
 <head>
 	<title>My Notes</title>
   <link rel="icon" href="https://lh3.googleusercontent.com/pw/ACtC-3dwAs4wQi00Xkzyxq0tOkXexJnbRs6dprouBETxGF7eTOxhPnjs9jJtka9UU-nviZRU4SVzD7RSdCUkDsx0iHacCcAdUd1hHFu4W_VOnZdCR7e9ik15ilGwSpJQF_N450P-o5Q91FpqEJQFIUo1HEOO=w699-h697-no">
-    	
+	
 
   <!-- CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- jQuery and JS bundle w/ Popper.js -->
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.js"
+    integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+    crossorigin="anonymous">
+  </script>
+
+  <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" 
+    crossorigin="anonymous">
+  </script>
+
   <link rel="stylesheet" type="text/css" href="css/style.css">
 
 	<script type="text/javascript" src="js/script.js"></script>	
 
-</head> 		  
+</head>
+
+
 <body>
+
+
                 <!-- START OF NAVBAR! -->
 <header class="pageheader">
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-   <a class="navbar-brand" href="it110-mynotes.herokuapp.com">
-          <img src="https://lh3.googleusercontent.com/pw/ACtC-3ffOiojDxoDVeyRTP0EXxs57fVnbgegGFp7iACdQZl5vuJ3NZaIQlE31JSczCUZuNIyQKKSkAOFAEQGTRczBCPV1El1qPewEFWwDLFOH2hlW8qBPUAO6BVGvnLy5l5NL10A_4IAed3gtqv5VLTGgpb1=w150-h50-no" alt="">
+   <a class="navbar-brand" href="#">
+                 <img src="https://lh3.googleusercontent.com/pw/ACtC-3ffOiojDxoDVeyRTP0EXxs57fVnbgegGFp7iACdQZl5vuJ3NZaIQlE31JSczCUZuNIyQKKSkAOFAEQGTRczBCPV1El1qPewEFWwDLFOH2hlW8qBPUAO6BVGvnLy5l5NL10A_4IAed3gtqv5VLTGgpb1=w150-h50-no" alt="">
+    
+   
     </a>
 
     <div class="navbar-nav ml-auto">
       <h5 class="mr-2 text-white"><?php echo  $_SESSION['firstname'] ?> <?php echo  $_SESSION['lastname'] ?> </h5>
-      <button onclick="window.location = 'php/Logout.php?logout'" class="btn btn-outline-danger" id="btn_signout" type="button">Sign Out</button>
+      <button class="btn btn-outline-danger" id="btn_signout" type="button">Sign Out</button>
     </div>
     
   </nav>
 </header> 
                 <!-- END OF NAVBAR! -->  
+    <div class="overlay">
+      <div class="loading"></div> 
+    </div>
+
   	<h1 class="heading">My Notes</h1>
   	<div class="container">
   		<div class="row">
@@ -53,9 +72,6 @@ if(isset($_SESSION['user_id'])){
       </div>
 
   	</div>
-
-
-
 
 
 <!-- MODALS -->
@@ -171,12 +187,13 @@ if(isset($_SESSION['user_id'])){
 
 </html>
 
+
 <?php
 }
 else
 {
     header("location:html/login.php");
-    var_dump($_SESSION['user_id']);
+    
 }
 
 ?>
