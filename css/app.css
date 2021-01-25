@@ -244,6 +244,7 @@ a:hover{
     }
 
     .login-content{
+        margin-top: -30px;
         justify-content: center;
     }
 }
